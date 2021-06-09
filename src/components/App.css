@@ -1,0 +1,68 @@
+:root {
+  --background-url: url(https://images.unsplash.com/photo-1613329671121-5d1cf551cc3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=666&q=80);
+}
+
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: 0.77rem 0;
+  background-color: #010c3f;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #6c41ec;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.55rem;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-color: #2d3436;
+  background-image: linear-gradient(
+      315deg,
+      rgba(12, 12, 12, 0.7) 0%,
+      rgba(12, 12, 12, 0.7) 74%
+    ),
+    var(--background-url);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  html {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,2 @@
+GET https://api.spotify.com/v1/search?type=track&q=MTP&market=vn
+Authorization: "Bearer BQCPbrOpYHkY7IU3ZJA6XYZ-kYtQh3X9l39wN6-OySngvHbUtYkzosjXN7yaE4uS5vtuAx9g4Cn6VESgpq0e4-vylYdKxYHkuH2YvjqP2oOID_8IDaz90syxbVvOHuuU51wUCDDiE7IcVvhJb3_WQGgQ19kOj92Mjli4TgYhCsmuVcrb_U4Cq12iFZ8SPQg"
